@@ -4,7 +4,7 @@ let currentPrice = document.querySelector('.current-price');
 let btn = document.querySelector('#calculate');
 let output = document.querySelector('.output');
 
-function calculateStock(){
+var calculateStock = () => {
     let ip = initialPrice.value;
     let curr = currentPrice.value;
     let qty = quantityStocks.value;
